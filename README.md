@@ -49,10 +49,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/ArnavGuptaaa/google-drive-clone
+$ git clone https://github.com/sumedhdixit/google-drive-clone-backend.git
 
 # Go into the repository
-$ cd google-drive-clone
+$ cd google-drive-clone-frontend
 
 # Install dependencies
 $ npm install
