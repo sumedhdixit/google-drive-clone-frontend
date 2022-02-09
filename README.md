@@ -1,3 +1,11 @@
+<!-- Logo and Title -->
+<h1 align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Googledrive_logo.svg" height=100>
+    <br />
+    Google Drive Clone Frontend
+    <br />
+</h1>
+
 <br />
 
 > NOTE : Backend For this app can be found at 👉 [sumedhdixit/google-drive-clone-backend](https://github.com/sumedhdixit/google-drive-clone-backend.git)
