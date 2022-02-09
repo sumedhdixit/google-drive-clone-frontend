@@ -1,0 +1,270 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: 'Manrope', sans-serif;
+	color: #5f6368;
+}
+
+.header {
+	height: 10vh;
+	padding: 1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo img {
+	width: 40px;
+	margin-right: 10px;
+}
+.avatar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-flex {
+	display: flex;
+	justify-content: center;
+}
+
+.sidebar {
+	height: 90vh;
+	flex: 0.17;
+	background: #f4f2f2;
+	border-right: 1px solid #c0c0c0;
+}
+
+.upload-btn {
+	cursor: pointer;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background: #fff;
+	margin: 20px 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	border-radius: 25px;
+	width: 60%;
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+.sidebar-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list-item {
+	cursor: pointer;
+	display: flex;
+	padding: 5px 10px;
+	margin: 2px 0;
+	font-size: 1rem;
+	align-items: center;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	transition: all ease-in 0.3s;
+}
+
+.list-item:hover {
+	background-color: #dddddd;
+}
+
+.list-item-active {
+	background-color: #dddddd;
+}
+
+.list-text {
+	margin-left: 6px;
+}
+.main {
+	flex: 0.83;
+	display: grid;
+	width: 100%;
+	top: 0;
+	margin: 20px;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-template-rows: 75px 75px 75px 75px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.login-container {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #f2f4f5;
+}
+
+.form-header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.form-logo {
+	width: 100px;
+}
+
+.form-title {
+	font-size: 2rem;
+}
+
+.login-form {
+	background-color: #fff;
+	width: 28%;
+	border-radius: 40px;
+	box-shadow: 24px 24px 145px #bbbbbb, -24px -24px 45px #ffffff;
+	min-width: 300px;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1.5%;
+}
+
+.links-div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.links-div a {
+	margin: 5px;
+}
+
+.forgot-password {
+	font-size: 0.8rem;
+	color: #303f9f;
+}
+
+.file {
+	cursor: pointer;
+	margin: 10px;
+	min-width: 150px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	border: 0.5px solid #c0c0c0;
+}
+
+.file-header {
+	display: flex;
+	font-size: 1.3rem;
+	font-weight: bold;
+	width: 100%;
+}
+
+.file-info {
+	margin-top: 15px;
+	font-size: 0.9rem;
+}
+
+.file-header > button {
+	margin-left: auto;
+}
+
+.file-name {
+	/* flex: 0.2; */
+	margin-left: 5px;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+
+.file-footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Modal */
+.MuiBox-root {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.dev-team {
+	flex: 0.83;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.card {
+	margin: 20px;
+	padding-bottom: 15px;
+	width: 300px;
+	height: 375px;
+	border: 2px solid #c0c0c0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+.card img {
+	object-fit: cover;
+}
+
+.dev-team h3 {
+	color: #5e636e;
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.upload-modal {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.2rem;
+}
+
+.metaData {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	margin: 10px 0;
+	width: 100%;
+	height: 200px;
+	border: 1px solid #5e636e;
+	padding: 5px;
+}
+
+.not-uploaded {
+	border: 1px dashed #5e636e;
+}
+
+.upload-button {
+	text-align: center;
+}
